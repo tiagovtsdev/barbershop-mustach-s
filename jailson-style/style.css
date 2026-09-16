@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Container principal da seção de trabalhos */
+/* container principal da seçao */
 #work-section {
     display: flex;
     justify-content: space-between;
@@ -13,7 +13,7 @@
     gap: 60px;
 }
 
-/* Painel da esquerda (Introdução e Botão) */
+/* painel da esquerda*/
 .intro-panel {
     flex: 1;
     display: flex;
@@ -37,7 +37,7 @@
     letter-spacing: 2px;
 }
 
-/* Botão de agendamento estilizado */
+/* botão de agendamento estilizado */
 .agendamento {
     border: none;
     padding: 15px 25px;
@@ -54,7 +54,7 @@
     background-color: yellow;
 }
 
-/* Container que guarda as duas colunas de preços */
+/* o container guarda as duas colunas dos preços */
 .price-list {
     flex: 2;
     display: flex;
@@ -76,7 +76,7 @@
     margin-bottom: 10px;
 }
 
-/* Linha de cima de cada item (Nome do corte + Preço) */
+/* linha de cima de cada item */
 .top-line {
     display: flex;
     justify-content: space-between;
@@ -105,28 +105,31 @@
 
 
 
-/* Container principal do footer que agrupa as colunas ,,,,,,,,,,,, */
+/* container principal do footer que agrupa as colunas ,,,,,,,,,,,, */
 .main-footer {
     display: flex;
-    flex-wrap: wrap; /* Vai uebra linha se a tela for menor */
+    flex-wrap: wrap; /* vai uebra linha se a tela for menor */
     justify-content: space-between;
     gap: 40px;
     padding: 60px 80px;
 }
 
-/* Cada coluna individual ganha flex para se espalhar bem */
-.brand-collum,
+/* cada coluna individual ganha flex pra ficar bem espalhado*/
 .links-col-1,
 .links-col-2,
 .links-col-3 {
     flex: 1;
-    min-width: 200px;
     display: flex;
     flex-direction: column;
     gap: 12px;
+
+    p {
+        background-color: yellow;
+        cursor: pointer;
+    }
 }
 
-/* Estilização da linha divisória e rodapé inferior para irem de ponta a ponta */
+/* linha divisória e rodapé inferior vai de ponta a ponta */
 .main-footer .linha-divider {
     width: 100%;
     border: none;
@@ -137,9 +140,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
 }
 
 .redes-sociais {
@@ -148,6 +148,7 @@
 }
 
 .redes-sociais p {
+    background-color: yellow;
     cursor: pointer;
 }
 
