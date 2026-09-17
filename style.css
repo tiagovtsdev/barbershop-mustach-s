@@ -28,7 +28,7 @@ section{
     display: flex;
 }
 
-.galeriaFoto{
+#sec5 .galeriaFoto{
     display: flex;
     flex-direction: column; 
     gap: 20px;
@@ -39,4 +39,45 @@ section{
     display: flex;        
     gap: 20px;              
     height: 350px;
+}
+
+#sec6 .headerSec6{
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+#sec6 .headerSec6 p{
+    margin-bottom: 20px;
+}
+
+#sec6 .barbeiros{
+    display: flex;
+    justify-content: center;
+    gap: 40px;      
+    padding: 20px;
+}
+
+#sec6 .cardBarbeiro{
+    display: flex;
+    flex-direction: column; 
+}
+
+#sec6 .cargo{
+    color: #D4AF37;
+}
+
+#sec6 .info{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#sec6 .infoLinha{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+#sec6 .detalhe{
+    color: #A39E93;
 }
