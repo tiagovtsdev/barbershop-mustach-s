@@ -6,7 +6,7 @@
 
 body {
     background-color: #0B0A09;
-    color: white;
+    
 }
 
 section{
@@ -28,6 +28,10 @@ section{
     display: flex;
 }
 
+#sec5{
+    background-color: white;
+}
+
 #sec5 .galeriaFoto{
     display: flex;
     flex-direction: column; 
@@ -35,10 +39,23 @@ section{
     margin-top: 40px; 
 }
 
+.titulo-galeria{
+    font-family: "Cormorant Garamond", serif;
+}
+
+.titulo-galeria > span {
+    color: #5C616C;
+    font-weight: 300;
+}
+
 .linha{
     display: flex;        
     gap: 20px;              
     height: 350px;
+}
+
+#sec6{
+    background-color: #EBEDEE;
 }
 
 #sec6 .headerSec6{
@@ -61,6 +78,15 @@ section{
 #sec6 .cardBarbeiro{
     display: flex;
     flex-direction: column; 
+    background-color: #141211;
+    color: white;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+#sec6 .cardBarbeiro img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #sec6 .cargo{
@@ -68,15 +94,17 @@ section{
 }
 
 #sec6 .info{
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: 20px 20px;
 }
 
 #sec6 .infoLinha{
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
 }
+
 
 #sec6 .detalhe{
     color: #A39E93;
